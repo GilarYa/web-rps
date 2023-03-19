@@ -1,4 +1,4 @@
-module iteung
+module github.com/GilarYa/web-rps
 
 go 1.20
 
