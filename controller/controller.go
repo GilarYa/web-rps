@@ -51,3 +51,8 @@ func GetDosen(c *fiber.Ctx) error {
 	getstatus := ckbackend.GetDataDosen("Dosen")
 	return c.JSON(getstatus)
 }
+
+// func GetPresensiBulanIni(c *fiber.Ctx) error {
+// 	ps := presensi.GetPresensiCurrentMonth(config.Ulbimongoconn)
+// 	return c.JSON(ps)
+// }
