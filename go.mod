@@ -3,6 +3,7 @@ module github.com/GilarYa/web-rps
 go 1.20
 
 require (
+	github.com/GilarYa/ckbackend v0.0.1
 	github.com/aiteung/atdb v0.0.7
 	github.com/aiteung/musik v0.0.5
 	github.com/gofiber/fiber/v2 v2.42.0
@@ -13,7 +14,6 @@ require (
 require (
 	aidanwoods.dev/go-paseto v1.3.0 // indirect
 	filippo.io/edwards25519 v1.0.0 // indirect
-	github.com/GilarYa/ckbackend v0.0.0-20230321062257-3f3f83b0c074 // indirect
 	github.com/aiteung/atapi v0.0.10 // indirect
 	github.com/aiteung/atmessage v0.0.12 // indirect
 	github.com/aiteung/atmodel v0.0.2 // indirect
