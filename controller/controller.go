@@ -1,12 +1,15 @@
 package controller
 
 import (
+	"github.com/GilarYa/ckbackend"
 	"github.com/GilarYa/web-rps/config"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/websocket/v2"
 	"github.com/whatsauth/whatsauth"
 )
+
+var DataDosen = "dosen"
 
 type HTTPRequest struct {
 	Header string `json:"header"`
@@ -39,4 +42,8 @@ func PostWhatsAuthRequest(c *fiber.Ctx) error {
 		return c.JSON(ws)
 	}
 
+}
+func GetDosen(c *fiber.Ctx) error {
+	getstatus := ckbackend.GetDataDosen("DOSEN")
+	return c.JSON(getstatus)
 }
