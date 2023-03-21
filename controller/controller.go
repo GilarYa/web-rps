@@ -48,6 +48,6 @@ func Homepage(c *fiber.Ctx) error {
 	return c.JSON(ipaddr)
 }
 func GetDosen(c *fiber.Ctx) error {
-	getstatus := ckbackend.GetDataDosen("DOSEN")
+	getstatus := ckbackend.GetDataDosen("Dosen")
 	return c.JSON(getstatus)
 }
