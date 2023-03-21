@@ -3,7 +3,7 @@ package controller
 import (
 	"github.com/GilarYa/ckbackend"
 	"github.com/GilarYa/web-rps/config"
-
+	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/websocket/v2"
 	"github.com/whatsauth/whatsauth"
@@ -42,6 +42,10 @@ func PostWhatsAuthRequest(c *fiber.Ctx) error {
 		return c.JSON(ws)
 	}
 
+}
+func Homepage(c *fiber.Ctx) error {
+	ipaddr := musik.GetIPaddress()
+	return c.JSON(ipaddr)
 }
 func GetDosen(c *fiber.Ctx) error {
 	getstatus := ckbackend.GetDataDosen("DOSEN")
