@@ -48,7 +48,7 @@ func Homepage(c *fiber.Ctx) error {
 	return c.JSON(ipaddr)
 }
 func GetDosen(c *fiber.Ctx) error {
-	getstatus := ckbackend.GetDataDosen("Dosen")
+	getstatus := ckbackend.GetDataDosen("DOSEN")
 	return c.JSON(getstatus)
 }
 
