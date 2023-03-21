@@ -3,14 +3,14 @@ package main
 import (
 	"log"
 
-	"github.com/GilarYa/situs-rps/config"
+	"github.com/GilarYa/web-rps/config"
 
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 
 	"github.com/whatsauth/whatsauth"
 
-	"github.com/GilarYa/situs-rps/url"
+	"github.com/GilarYa/web-rps/url"
 
 	"github.com/gofiber/fiber/v2"
 )

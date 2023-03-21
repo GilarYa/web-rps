@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/GilarYa/situs-rps/config"
+	"github.com/GilarYa/web-rps/config"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/websocket/v2"
