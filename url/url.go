@@ -1,7 +1,7 @@
 package url
 
 import (
-	"github.com/GilarYa/web-rps/controller"
+	"github.com/GilarYa/situs-rps/controller"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/websocket/v2"
@@ -10,8 +10,6 @@ import (
 func Web(page *fiber.App) {
 	page.Post("/api/whatsauth/request", controller.PostWhatsAuthRequest)  //API from user whatsapp message from iteung gowa
 	page.Get("/ws/whatsauth/qr", websocket.New(controller.WsWhatsAuthQR)) //websocket whatsauth
-	page.Get("/", controller.GetHome)
-	page.Get("/dosen", controller.GetDataDosen)
 
 	page.Get("/", controller.Sink)
 	page.Post("/", controller.Sink)
