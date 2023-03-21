@@ -11,6 +11,8 @@ github.com/GilarYa/ckbackend v0.0.1 h1:hjlzslcjMqG2ojyqcZ/fyNjgG8U3u5TemFUiAA55A
 github.com/GilarYa/ckbackend v0.0.1/go.mod h1:JfG66PQtiyAD6w7KYjO9wwgjMHmrQu7gDO8prmh0A0o=
 github.com/GilarYa/ckbackend v0.0.12 h1:+h72g/WGcIgAfinf8FYSpCIRYZATlPhYA1xqLjUO48w=
 github.com/GilarYa/ckbackend v0.0.12/go.mod h1:JfG66PQtiyAD6w7KYjO9wwgjMHmrQu7gDO8prmh0A0o=
+github.com/GilarYa/ckbackend v0.0.14 h1:6HvM8EqYEbNN9iVCM1HsSZSUMuaQNchzuo4VNpH4rOE=
+github.com/GilarYa/ckbackend v0.0.14/go.mod h1:JfG66PQtiyAD6w7KYjO9wwgjMHmrQu7gDO8prmh0A0o=
 github.com/aiteung/atapi v0.0.10 h1:n2UpykaSIlFrdfrEaTU27/y1gXZ0KMAJLypNH4eb+so=
 github.com/aiteung/atapi v0.0.10/go.mod h1:WRmSafqlDpo8PqT1NxoobjVEXkk7vJ6fj7bzh0MTzkM=
 github.com/aiteung/atdb v0.0.7 h1:DZ5m6n5kAHFNrggnEG2B3UawXJ+flMdsHP4JCgKGk5s=

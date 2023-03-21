@@ -3,7 +3,7 @@ module github.com/GilarYa/web-rps
 go 1.20
 
 require (
-	github.com/GilarYa/ckbackend v0.0.12
+	github.com/GilarYa/ckbackend v0.0.14
 	github.com/aiteung/atdb v0.0.7
 	github.com/aiteung/musik v0.0.5
 	github.com/gofiber/fiber/v2 v2.42.0
