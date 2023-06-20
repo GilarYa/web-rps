@@ -7,10 +7,6 @@ github.com/Azure/azure-sdk-for-go/sdk/azcore v1.1.2/go.mod h1:uGG2W01BaETf0Ozp+Q
 github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.1.0/go.mod h1:bhXu1AjYL+wutSL/kpSq6s7733q2Rb0yuot9Zgfqa/0=
 github.com/Azure/azure-sdk-for-go/sdk/internal v1.0.0/go.mod h1:eWRD7oawr1Mu1sLCawqVc0CUiF43ia3qQMxLscsKQ9w=
 github.com/AzureAD/microsoft-authentication-library-for-go v0.5.1/go.mod h1:Vt9sXTKwMyGcOxSmLDMnGPgqsUg7m8pe215qMLrDXw4=
-github.com/GilarYa/ckbackend v0.0.1 h1:hjlzslcjMqG2ojyqcZ/fyNjgG8U3u5TemFUiAA55A+g=
-github.com/GilarYa/ckbackend v0.0.1/go.mod h1:JfG66PQtiyAD6w7KYjO9wwgjMHmrQu7gDO8prmh0A0o=
-github.com/GilarYa/ckbackend v0.0.12 h1:+h72g/WGcIgAfinf8FYSpCIRYZATlPhYA1xqLjUO48w=
-github.com/GilarYa/ckbackend v0.0.12/go.mod h1:JfG66PQtiyAD6w7KYjO9wwgjMHmrQu7gDO8prmh0A0o=
 github.com/GilarYa/ckbackend v0.0.14 h1:6HvM8EqYEbNN9iVCM1HsSZSUMuaQNchzuo4VNpH4rOE=
 github.com/GilarYa/ckbackend v0.0.14/go.mod h1:JfG66PQtiyAD6w7KYjO9wwgjMHmrQu7gDO8prmh0A0o=
 github.com/aiteung/atapi v0.0.10 h1:n2UpykaSIlFrdfrEaTU27/y1gXZ0KMAJLypNH4eb+so=
@@ -23,8 +19,6 @@ github.com/aiteung/atmodel v0.0.2 h1:eAQ+yKP1trqWi3cot+1b33Av/dkK9+1+tsO0aZAsUTM
 github.com/aiteung/atmodel v0.0.2/go.mod h1:wIPSFdFR+AKRDFmToYJdXr+ck6vtzGnJvNz8TxvFFi4=
 github.com/aiteung/musik v0.0.5 h1:u97eBCwBL7Za68h9CgxXLaKzcbJEZtqQFQjSQ6/32u0=
 github.com/aiteung/musik v0.0.5/go.mod h1:fwfzankgCEYSBSAp0FMuiLJoXvSaZk+lSWhgZZETFCs=
-github.com/aiteung/presensi v0.0.25 h1:BeAPbAotOF7mPp/DLDfjlfvZu1u7bCpv8U2HWnqZ1do=
-github.com/aiteung/presensi v0.0.25/go.mod h1:JwCqXJawBWvEnbWmjJRby3DK0ynWX16q5VcqR4Kt6wM=
 github.com/andybalholm/brotli v1.0.4/go.mod h1:fO7iG3H7G2nSZ7m0zPUDn85XEX2GTukHGRSepvi9Eig=
 github.com/andybalholm/brotli v1.0.5 h1:8uQZIdzKmjc/iuPu7O2ioW48L81FgatrcpfFmiq/cCs=
 github.com/andybalholm/brotli v1.0.5/go.mod h1:fO7iG3H7G2nSZ7m0zPUDn85XEX2GTukHGRSepvi9Eig=
